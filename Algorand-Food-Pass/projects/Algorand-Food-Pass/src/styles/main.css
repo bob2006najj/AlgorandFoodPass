@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ---------- Design Tokens ---------- */
+:root {
+  --bg0: 248 250 252; /* slate-50 */
+  --bg1: 241 245 249; /* slate-100 */
+  --card: 255 255 255;
+  --text: 15 23 42; /* slate-900 */
+  --muted: 71 85 105; /* slate-600 */
+  --border: 226 232 240; /* slate-200 */
+
+  --primary: 16 185 129; /* emerald-500 */
+  --primary-600: 5 150 105; /* emerald-600 */
+  --amber: 245 158 11; /* amber-500 */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: rgb(var(--text));
+  background: rgb(var(--bg0));
+
+}
+
+/* App background */
+.bg-app {
+  background:
+    radial-gradient(1200px 800px at 10% 0%, rgba(16,185,129,0.12), transparent 60%),
+    radial-gradient(1200px 800px at 90% 20%, rgba(245,158,11,0.10), transparent 55%),
+    linear-gradient(180deg, rgb(var(--bg0)), rgb(var(--bg1)));
+}
+
+/* Landing animated gradient (disabled if reduced motion) */
+.landing-anim {
+  background: linear-gradient(120deg,
+    rgba(16,185,129,0.18),
+    rgba(245,158,11,0.12),
+    rgba(2,132,199,0.10)
+  );
+  background-size: 200% 200%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-anim { animation: none; }
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* nice focus */
+:focus-visible {
+  outline: 2px solid rgba(16,185,129,0.55);
+  outline-offset: 2px;
+}
