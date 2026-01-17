@@ -1,44 +1,109 @@
-# The Web3 Masterclasses Set Up!
+🍞 FoodPass NFT
 
-Welcome to the Web3 Masterclasses Setup! This repository is designed to provide you with everything you need to start building on the Algorand blockchain.
+Blockchain-based Food Assistance System on Algorand TestNet
 
-📘 **New here?** Check out our [Reference Guide](https://docs.google.com/document/d/19FHGLijTwKivy14KpNYaXVLxEI_Yo97ooaGj6CxZ1fA/edit?usp=sharing)
+FoodPass NFT is a Web3 social-good MVP built on Algorand TestNet, designed to improve transparency, security, and efficiency in humanitarian food assistance programs.
 
-It includes prompts, setup instructions, and AI tips to help you follow along with the Web3 Masterclasses!
+The project replaces paper food vouchers with non-transferable NFT FoodPasses, ensuring that aid reaches the right beneficiaries while allowing NGOs and donors to track impact in real time.
 
-## 🌟 How To Get Started Instructions
+🌍 Problem Statement
 
-### **Fork the Repo:**
+In many humanitarian aid programs, food assistance suffers from:
 
-To create your own copy of this repository:
+Loss or theft of paper vouchers
 
-a. **Go to the GitHub Repository:**
-   - Navigate to the main page which is the current one your on.
+Fraud and misuse of aid
 
-b. **Click the "Fork" Button:**
-   - In the top-right corner of the page, click the **Fork** button. This will create a copy of the repository under your GitHub account.
+Lack of transparency for donors
 
-c. **Wait for the Forking Process to Complete:**
-   - GitHub will take a few moments to create the fork. Once complete, you’ll be redirected to your newly created fork.
+Difficult tracking of distributions and redemptions
+
+Manual, error-prone administrative processes
+
+These issues reduce trust and prevent aid from reaching families who need it most.
+
+💡 Solution: FoodPass NFT
+
+FoodPass NFT introduces a secure, transparent, and auditable food assistance system using blockchain technology.
+
+Each beneficiary family receives a non-transferable NFT FoodPass
+
+Merchants redeem meals or food value directly from the pass
+
+NGOs manage campaigns and monitor distribution via a real-time dashboard
+
+All transactions are recorded on Algorand TestNet for transparency
+
+🚀 Key Features
+🪪 NFT FoodPass
+
+1 NFT = 1 family
+
+Non-transferable (soulbound-like)
+
+Represents food value or number of meals
+
+Includes expiry date and campaign reference
+
+🔐 Smart Contract Logic
+
+Tracks remaining balance (meals/value)
+
+Prevents double spending
+
+Enforces merchant authorization
+
+Controls expiry and redemption rules
+
+📊 Admin Dashboard
+
+Total passes minted
+
+Active / expired passes
+
+Total value issued vs redeemed
+
+Remaining global balance
+
+Detailed tables and charts
+
+🛒 Merchant Portal
+
+Scan QR code
+
+Redeem meals/value
+
+View redemption history
+
+👨‍👩‍👧 Beneficiary Portal
+
+View FoodPass details
+
+See remaining balance
+
+Generate QR code for redemption
 
 
+🌐 Public Transparency Page
 
-https://github.com/user-attachments/assets/92e746e1-3143-4769-8a5a-1339e4bd7a14
+Read-only statistics for donors and the public
 
+Builds trust and accountability
 
-
-## 🚀 Start with Codespaces
-This is the fastest way to get up and running!
-
-1. **Create a Codespace:**
-
-   - Click the green "Code" button at the top right of your forked repo.
-   - Select "Create codespace on main".
-   - Once your Codespace is fully loaded, you are ready to go!
-
-2. **Start Coding:**
-   - Run the command ```algokit init```
+THE ROLE OF EVERY PERSON IN THE WEBSITE:
+---------------------------------------------
 
 
-https://github.com/user-attachments/assets/ee3fda3e-f4fe-4190-867b-0a626f0eb099
+| Role               | Capabilities                                                       |
+| ------------------ | ------------------------------------------------------------------ |
+| **NGO Admin**      | Create campaigns, mint passes, whitelist merchants, view dashboard |
+| **Beneficiary**    | View pass, remaining balance, generate QR                          |
+| **Merchant**       | Redeem passes, view redemption history                             |
+| **Public / Donor** | View transparency statistics                                       |
+
+
+I HOPE TO ENJOY IN OUR PROJECT BY :
+MASTER PROJECT :IBRAHIM NAJJAR.
+
+
 
